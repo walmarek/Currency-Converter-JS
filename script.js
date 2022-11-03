@@ -1,3 +1,5 @@
+console.log("Hello All. Just started developing")
+
 let have = document.querySelector(".js-select__currencyHave");
 let get = document.querySelector(".js-select__currencyGet");
 let input = document.querySelector(".js-form__field--input");
