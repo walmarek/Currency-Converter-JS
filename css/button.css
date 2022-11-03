@@ -1,6 +1,6 @@
 .button {
     width: 100%;
-    max-width: 280px;
+    max-width: 500px;
     background-color: #2a3a4c;
     margin: 20px 0px 20px 30px;
     color: #ffffff;
@@ -14,4 +14,10 @@
   
   .button:active {
     background-color: hsl(212, 29%, 63%);
+  }
+
+  .button__link {
+   text-decoration: none;
+color: #ffffff;
+font-size: 20px;
   }
