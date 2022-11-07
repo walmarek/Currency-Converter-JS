@@ -2,15 +2,16 @@
 max-width: 160px;
   width: 70%;
   padding: 0;
-  margin: 0;
+  margin: 0px;
 }
 
 .form__labelText {
   display: inline-block;
   width: 100%;
   max-width: 140px;
-  margin-right: 10px;
+  margin-right: 0px;
   font-weight: 700;
+  margin-left: 20px;
 }
 
 .form__labelText--currency {
@@ -53,9 +54,10 @@ max-width: 160px;
 
 .form__legend {
   background-color: #2a3a4c;
+  font-size: 26px;
   color: #ffffff;
   border-radius: 4px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .form__select--currency {

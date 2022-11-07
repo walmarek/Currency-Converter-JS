@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kalkulator walut</title>
+    <title>Currency converter</title>
     <meta property="og:image" content="images/share.png" />
     <link rel="icon" href="images/logo.ico" />
     <link
@@ -30,13 +30,13 @@
     <div class="container">
       <form class="form js-form">
         <fieldset class="form__fieldset">
-          <legend class="form__legend">Kalkulator Walut</legend>
+          <legend class="form__legend">Currency converter</legend>
           <span class="form__labelText form__labelText--currency">
-            Wybierz walutę:
+            Chose currency:
           </span>
           <label class="form__label">
             <p>
-              <span class="form__labelText">Mam:</span>
+              <span class="form__labelText">From:</span>
               <input
                 class="form__field js-form__field--input"
                 type="number"
@@ -45,6 +45,7 @@
                 max="100000"
                 minlength="2"
                 required
+                placeholder="Enter amount"
               /><select
                 class="form__select--currency js-select__currencyHave"
                 id="js-currencyHave"
@@ -58,7 +59,7 @@
           </label>
           <label class="form__label"
             ><p>
-              <span class="form__labelText">Otrzymam:</span>
+              <span class="form__labelText">To:</span>
               <input
                 class="form__field form__field--green js-form__field--output js-form__field--outputGet"
                 type="number"
@@ -85,7 +86,7 @@
           title="Średnie kursy walut na stronie nbp alt"
           alt="link na stronę średniuch kursów walut nbp"
         >
-          Sprawdź średnie kursy walut NBP</a
+          Check avarage exchange rates - NBP</a
         >
       </button>
     </div>
