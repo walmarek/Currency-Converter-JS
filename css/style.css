@@ -12,7 +12,7 @@ body {
   font-family: "Lato", sans-serif;
   display: flex;
   justify-content: center;
-  background-image: url("/images/converter.jpg");
+  background-image: url(../images/converter.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
