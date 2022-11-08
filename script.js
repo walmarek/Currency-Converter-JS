@@ -2,8 +2,8 @@ console.log("Hello All. Just started developing")
 
 let have = document.querySelector(".js-select__currencyHave");
 let get = document.querySelector(".js-select__currencyGet");
-let input = document.querySelector(".js-form__field--input");
-let output = document.querySelector(".js-form__field--output");
+let input = document.querySelector(".js-form__fieldInput");
+let output = document.querySelector(".js-form__fieldOutput");
 
 let formElement = document.querySelector(".js-form");
 let formFieldInput = document.querySelector(".js-form__field--outputHave");
@@ -25,3 +25,4 @@ formElement.addEventListener("input", () => {
 
   formFieldOutput.value = outputCurrencyResult.toFixed(2);
 });
+
