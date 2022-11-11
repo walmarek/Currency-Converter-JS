@@ -9,6 +9,6 @@ Live update to be fixed shortly and more currencies to be added soon.
 
 As this converter is made by a newby more fetures will be added with time so plese check, add anything you want and share your thoughts about my project.  
 
-##Demo
+## Demo
 
-[Check this one out!](
+![Check this one out!](https://github.com/walmarek/currencyConverter/blob/main/gifs/converterSpeed.gif?raw=true)
