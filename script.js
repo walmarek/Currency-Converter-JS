@@ -1,28 +1,31 @@
-console.log("Hello All. Just started developing")
+console.log("Hello All. Just started developing");
 
-let have = document.querySelector(".js-select__currencyHave");
-let get = document.querySelector(".js-select__currencyGet");
-let input = document.querySelector(".js-form__fieldInput");
-let output = document.querySelector(".js-form__fieldOutput");
+const inputCurrenyElement = document.querySelector(".js-select-currencyInput");
+const outputCurrenyElement = document.querySelector(".js-select-currencyOutput");
+const inputElement = document.querySelector(".js-form-fieldInput");
+const outputElement = document.querySelector(".js-form-fieldOutput");
+const formElement = document.querySelector(".js-form");
 
-let formElement = document.querySelector(".js-form");
-let formFieldInput = document.querySelector(".js-form__field--outputHave");
-let formFieldOutput = document.querySelector(".js-form__field--outputGet");
-
-var select = document.getElementById("js-currencyHave");
+var select = document.getElementById("js-currencyInput");
 var option = select.options[select.selectedIndex];
 
-var select = document.getElementById("js-currencyGet");
+var select = document.getElementById("js-currencyOutput");
 var option = select.options[select.selectedIndex];
 
 formElement.addEventListener("input", () => {
-  let haveCurrency = have.value;
-  let getCurrency = get.value;
-  let inputCurrency = input.value;
-  let outputCurrency = output.value;
+  const inputCurrencyRate = inputCurrenyElement.value;
+  const outputCurrencyRate = outputCurrenyElement.value;
+  const inputAmount = inputElement.value;
 
-  let outputCurrencyResult = (inputCurrency * haveCurrency) / getCurrency;
+  const calculateResult = (inputAmount, inputRate, outputRate) => {
+    return (inputAmount * inputRate) / outputRate;
+  };
 
-  formFieldOutput.value = outputCurrencyResult.toFixed(2);
+  const result = calculateResult(
+    inputAmount,
+    inputCurrencyRate,
+    outputCurrencyRate
+  );
+
+  outputElement.value = result.toFixed(2);
 });
-
