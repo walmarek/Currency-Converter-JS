@@ -11,4 +11,8 @@ As this converter is made by a newby more fetures will be added with time so ple
 
 ## Demo
 
-![Check this one out!](https://github.com/walmarek/currencyConverter/blob/main/gifs/converterSpeed.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/walmarek/currencyConverter/blob/main/gifs/converterSpeed.gif?raw=true">
+</p>
+
+##
