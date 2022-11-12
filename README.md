@@ -9,7 +9,7 @@ Live update to be fixed shortly and more currencies to be added soon.
 
 As this converter is made by a newby more fetures will be added with time so plese check, add anything you want and share your thoughts about my project.  
 
-## Demo
+<h2 align="center"> Demo </h2>
 
 <p align="center">
   <img src="https://github.com/walmarek/currencyConverter/blob/main/gifs/converterSpeed.gif?raw=true">
