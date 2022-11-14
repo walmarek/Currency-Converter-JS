@@ -1,33 +1,41 @@
-.form__label {
-max-width: 160px;
-  width: 70%;
+.form {
+  margin: 0;
   padding: 0;
-  margin: 0px;
+}
+
+.form__label {
+max-width: 120px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .form__labelText {
   display: inline-block;
   width: 100%;
-  max-width: 140px;
-  margin-right: 0px;
+  max-width: 120px;
   font-weight: 700;
-  margin-left: 20px;
+  margin: 10px;
+  padding: 0;
+ 
 }
 
 .form__labelText--currency {
   display:inline;
-  margin: 10px;
+  margin: 0;
   padding: 10px;
   font-weight: 700;
 }
 
 .form__field {
   border: 1px solid black;
-  padding: 14px;
-  margin: 20px;
+  padding: 11px;
+  margin: 10px;
   margin-right: 0;
-  width: 140px;
-  max-width: 80%;
+  width: 60%;
+  max-width: 142px;
+  border-radius: 4px;
+  
 }
 
 .form__field--green {
@@ -38,29 +46,27 @@ max-width: 160px;
   resize: vertical;
   min-height: 100px;
   padding: 10px;
-  margin: 0px;
+  margin: 0;
 }
 
 .form__fieldset {
-  border: 1px solid black;
-  background-color: #99e8fc;
-  width: 600px;
-  max-width: 80%;
-  font-size: 20px;
-  padding: 20px;
-  border-radius: 4px;
-  margin: 20px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .form__legend {
   background-color: #2a3a4c;
-  font-size: 26px;
+  font-size: 22px;
   color: #ffffff;
   border-radius: 4px;
-  padding: 20px;
+  padding: 16px;
+  margin: 20px;
 }
 
 .form__select--currency {
-  padding: 13px;
-  margin: 0 0 10px 0px;
+  padding: 10px;
+  margin: 0 0 6px 2px;
+  border-radius: 4px;
 }

@@ -1,8 +1,7 @@
 .button {
-  width: 500%;
-  max-width: 80%;
   background-color: #2a3a4c;
-  margin: 50px;
+  width: 100%;
+  margin: 0;
   color: #ffffff;
   padding: 18px;
   border-radius: 4px;
@@ -19,5 +18,4 @@
 .button__link {
   text-decoration: none;
   color: #ffffff;
-  font-size: 20px;
 }
